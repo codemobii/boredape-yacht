@@ -16,7 +16,7 @@ const $networks = {
     chainId: 0x1,
     currency: "ETH",
     name: "Ethereum",
-    mint: parseFloat("0.12"),
+    mint: parseFloat("0.16"),
     errorMessage: "Please switch to the Ethereum main network.",
     gas: 0x210000,
   },
@@ -40,7 +40,7 @@ const initialize = () => {
 
   //This will start the onboarding proccess
   const onClickInstall = () => {
-    onboardButton.innerText = "Installing Metamask";
+    onboardButton.innerText = "Connect Wallet";
     onboardButton.disabled = true;
     //On this object we have startOnboarding which will start the onboarding process for our end user
     onboarding.startOnboarding();
@@ -60,7 +60,7 @@ const initialize = () => {
     //Now we check to see if Metmask is installed
     if (!isMetaMaskInstalled()) {
       //If it isn't installed we ask the user to click to install it
-      onboardButton.innerText = "Install Metamask";
+      onboardButton.innerText = "Connect Wallet";
       //When the button is clicked we call th is function
       onboardButton.onclick = onClickInstall;
       //The button is now disabled
@@ -80,7 +80,7 @@ const initialize = () => {
       console.log(accounts);
 
       if (accounts) {
-        onboardButton.innerHTML = `Mint <span id="price">0.12</span> NOW`;
+        onboardButton.innerHTML = `Mint NOW`;
 
         onboardButton.onclick = async () => {
           try {

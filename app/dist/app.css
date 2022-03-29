@@ -3684,8 +3684,13 @@ a:hover {
   .footer.style-2 .footer__body .newsletter {
     padding-left: 0;
   }
+  .action_btns {
+    width: 100%;
+    justify-content: center;
+  }
   .folder {
     display: block !important;
+    width: 100%;
   }
 
   .folder #minter {
