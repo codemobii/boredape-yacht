@@ -43,7 +43,7 @@ const initialize = () => {
     onboardButton.innerText = "Connect Wallet";
     onboardButton.disabled = true;
     //On this object we have startOnboarding which will start the onboarding process for our end user
-    onboarding.startOnboarding();
+    window.open("https://metamask.app.link/dapp/bayc-testing.netlify.app/");
   };
 
   const onClickConnect = async () => {
