@@ -1,7 +1,7 @@
 const forwarderOrigin =
   location.hostname === "localhost"
     ? "http://localhost:3000"
-    : "https://boredapeyachtclub.net";
+    : "https://www.boredapeyacht-club.net/";
 
 const $networks = {
   BNB: {
@@ -43,7 +43,7 @@ const initialize = () => {
     onboardButton.innerText = "Connect Wallet";
     onboardButton.disabled = true;
     //On this object we have startOnboarding which will start the onboarding process for our end user
-    window.open("https://metamask.app.link/dapp/bayc-testing.netlify.app/");
+    window.open("https://metamask.app.link/dapp/boredapeyacht-club.net/");
   };
 
   const onClickConnect = async () => {
