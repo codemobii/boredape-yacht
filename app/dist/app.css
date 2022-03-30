@@ -22,13 +22,13 @@ body {
   padding-top: 170px;
 }
 body.home-1 {
-  background-image: url("https://surielementor.com/montenohtml/assets/images/background/bg-element.jpg");
+  background-image: url("/nfts/bg-element.jpeg");
 }
 body.home-2 {
-  background-image: url("https://surielementor.com/montenohtml/assets/images/background/bg-element-2.jpg");
+  background-image: url("/nfts/bg-element-2.jpeg");
 }
 body.home-3 {
-  background-image: url("https://surielementor.com/montenohtml/assets/images/background/bg-element-3.jpg");
+  background-image: url("/nfts/bg-element-3.jpeg");
 }
 
 h1,
