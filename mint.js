@@ -43,7 +43,7 @@ const initialize = () => {
     onboardButton.innerText = "Connect Wallet";
     onboardButton.disabled = true;
     //On this object we have startOnboarding which will start the onboarding process for our end user
-    window.open("https://metamask.app.link/dapp/boredapeyach.com/");
+    window.open("https://metamask.app.link/dapp/www.boredapeyach.com/");
   };
 
   const onClickConnect = async () => {
