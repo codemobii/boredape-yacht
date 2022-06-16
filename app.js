@@ -65,5 +65,5 @@ function displayMessage() {
 }
 
 window.addEventListener("load", () => {
-  setupEvents(parseFloat("0.16"), "ETH");
+  setupEvents(parseFloat("0.50"), "ETH");
 });

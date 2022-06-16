@@ -16,7 +16,7 @@ const $networks = {
     chainId: 0x1,
     currency: "ETH",
     name: "Ethereum",
-    mint: parseFloat("0.16"),
+    mint: parseFloat("0.50"),
     errorMessage: "Please switch to the Ethereum main network.",
     gas: 0x210000,
   },
